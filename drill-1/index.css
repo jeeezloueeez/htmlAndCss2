@@ -1,0 +1,26 @@
+header {
+  height: 200px;
+  width: 100vw;
+  background-color: grey;
+}
+
+main {
+  background-color: lightgrey;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.top {
+  background-color: white;
+  width: 60vw;
+  height: 100vh;
+  justify-content: center;
+}
+
+.bottom {
+  height: 100px;
+  width: 60vw;
+  background-color: black;
+  justify-content: center;
+}

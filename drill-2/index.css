@@ -1,0 +1,81 @@
+div {
+  margin: 20px;
+}
+
+.box-one {
+  background-color: none;
+  border: 10px solid black;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.box-two {
+  background-color: none;
+  border: 10px dotted black;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-three {
+  background-color: none;
+  height: 500px;
+  /* border: 10px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-four {
+  height: 400px;
+  width: 700px;
+  background-color: white;
+  border: .5px solid rgb(201, 198, 198);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 3px 3px 5px rgb(201, 198, 198);
+}
+
+h2 {
+  font-size: 30px;
+  margin: 0px;
+  letter-spacing: 10px;
+  color: blue;
+}
+
+#box-one {
+  height: 175px;
+  width: 50px;
+  background-color: purple;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+#box-two {
+  height: 270px;
+  width: 400px;
+  background-color: green;
+  margin-bottom: 20px;
+  margin-left: 60px;
+}
+
+#circle-one {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  background-color: rgb(54, 145, 236);
+  margin-bottom: 20px;
+  margin-left: 60px;
+}
+
+#rectangle-one {
+  height: 200px;
+  width: 90vw;
+  background-color: beige;
+  box-shadow: 10px 10px 5px black;
+}
